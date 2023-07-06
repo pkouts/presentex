@@ -1,0 +1,34 @@
+\begin{document}
+
+    \begin{title}
+
+    \end{title}
+
+    \begin{header}
+
+    \end{header}
+
+    \begin{footer}
+
+    \end{footer}
+
+    \begin{slide}
+        
+        \showheader
+        \showfooter
+
+        \textbox[ id=, x=, y=, w=, h= ]{ Sample text in latex format }
+
+        \begin{manim}[ id-, x=, y=, w=, h= ]
+            <manim Scene code>
+        \end{manim}
+
+        \transition{}
+        \begin{animationlist}
+            \move[ element_id=, dx=, dy=, duration=, delay=, actuate="withPrevious" ]
+            \fadein[ element_id=, duration=, delay=, actuate="onClick" ]
+        \end{animationlist}
+
+    \end{slide}
+
+\end{document}
