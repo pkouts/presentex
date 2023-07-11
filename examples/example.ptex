@@ -1,15 +1,15 @@
 \begin{document}
 
     \begin{title}
-
+        Welcome to Presentex
     \end{title}
 
     \begin{header}
-
+        Introduction to presentex
     \end{header}
 
     \begin{footer}
-
+        Page 1/5
     \end{footer}
 
     \begin{slide}
@@ -32,3 +32,7 @@
     \end{slide}
 
 \end{document}
+
+\begin{presentation}
+    Lorem ipsum
+\end{presentation}
